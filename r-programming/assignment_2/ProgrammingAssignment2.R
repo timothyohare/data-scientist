@@ -3,7 +3,7 @@
 
 ## TODO Write a short comment describing this function
 
-cac <- function(x = matrix()) {
+makeCacheMatrix <- function(x = matrix()) {
     inverse <- NULL
     set <- function(y) {
         x <<- y
@@ -14,7 +14,7 @@ cac <- function(x = matrix()) {
     getinverse <- function() inverse
     list(set = set, get = get,
          setinverse = setinverse,
-         getinverse = getinverse) 
+         getinverse = getinverse)
 }
 
 
