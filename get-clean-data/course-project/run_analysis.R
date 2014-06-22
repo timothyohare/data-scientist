@@ -70,5 +70,7 @@ harus <- function() {
     # tells how many are there for each activity
     #table(ytrain, dnn=f)
     combo <- data.frame(ytrain, trainSubjects, Xtrain)
-    write.csv(combo, "./data/combined_tidy_dataset.csv")
+    #
+    combo_summary <- summary(combo)
+    write_table(combo_summary, "./data/combined_tidy_dataset_summary.txt")
 }
