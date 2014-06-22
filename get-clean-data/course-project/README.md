@@ -19,4 +19,7 @@ Tasks not yet completed
 
 I got stuck trying to replace the actvitiy labels.
 
+The summary of the data is shown in [combined_tidy_dataset_summary.txt]
+
 [run_analysis.R]:https://github.com/timothyohare/data-scientist/blob/master/get-clean-data/course-project/run_analysis.R
+[combined_tidy_dataset_summary.txt]:https://github.com/timothyohare/data-scientist/blob/master/get-clean-data/course-project/data/combined_tidy_dataset_summary.txt
